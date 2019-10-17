@@ -15,7 +15,7 @@ public class Main {
 
         Scanner ulaz = new Scanner(System.in);
         System.out.println("Unesi cijeli broj: ");
-        int vel =  ulaz.nextInt():
+        int vel =  ulaz.nextInt();
         for (int i = 1; i < vel; i++)
             if (i % sumaCifara(i) == 0)
                 System.out.println(i);
